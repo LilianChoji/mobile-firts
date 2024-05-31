@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/capa.png);
+} */
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/capa.png);
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+
+
+header .simbolo img{
+    width: 25px;
+}
+
+ .lista__menu , .lista__itens{
+    display: flex;
+    list-style-type: none;
+    
+   
+}
+
+.lista__itens a{
+    padding: 1em;
+}
