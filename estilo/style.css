@@ -3,36 +3,91 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+   
 }
 
-/* body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../img/capa.png);
-} */
+body{
+    background-color: #080D0D;
+   
+}
 
 header{
     width: 100vw;
-    height: 100vh;
-    background-image: url(../img/capa.png);
+    height: 70vh;
     display: flex;
     justify-content: center;
-    margin-top: 1.5em;
+    background-image: url(../img/capa.jpeg);   
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position-x: center;
+    
 }
 
 
 
 header .simbolo img{
-    width: 25px;
+    width: 50px;
+    margin-top: 2.70em;
 }
+
 
  .lista__menu , .lista__itens{
     display: flex;
     list-style-type: none;
+    padding: 0.50em;
+    margin-top: 1em;
     
    
 }
 
 .lista__itens a{
+    font-size: 1.10em;
     padding: 1em;
+    color: #FFFFFE;
+}
+
+.lista__dois .lista__conteudo{
+    display: flex;
+    margin-top: 0.50em;
+}
+
+.lista__conteudo{
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+.lista__conteudo a{
+    padding: 0.50em;
+    font-size: 1em;
+    color: #FFFFFE;
+}
+
+.informaçoes .icones__informacoes{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icone__mais , .icone__informacao{
+    width: 20px ;
+    height: 20px;
+    
+    
+}
+
+  .bnt__play{
+    width: 100px;
+    padding: 10px;
+    color: #080D0D;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+p{
+
+    color: #FFFFFE;
 }
