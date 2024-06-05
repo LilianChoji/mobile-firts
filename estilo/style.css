@@ -108,3 +108,30 @@ header .simbolo img{
     color: #FFFFFE;
 }
 
+
+.destaques{
+    justify-content: center;
+    margin-top: 5em;
+    /* background-color: aquamarine; */
+}
+
+.titulo__destaque{
+    color: #FFFFFE;
+    margin-left: 1em;
+    
+    
+}
+
+.img__destaques{
+    display: flex;
+    margin-top: 1em;
+    text-align: center;
+   
+    
+}
+
+.destaques img{
+    width: 8em;
+    margin-left: 7px;
+
+}
