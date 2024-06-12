@@ -124,9 +124,11 @@ header .simbolo img{
 }
 
 .img__destaques{
-    display: flex;
+    display: flex ;
     margin-top: 1em;
-    text-align: center;
+   
+    flex-wrap: wrap;
+    justify-content: center;
    
     
 }
@@ -163,21 +165,68 @@ header .simbolo img{
         height: 55vh;
         display: flex;
         justify-content: center;
-        background-image: url(../img/capitao.jpg);   
+        background-image: url(../img/capa__serie.jpg);   
         background-repeat: no-repeat; 
         background-size: cover;
-        background-position-x: center;
+        background-position-x: left;
         
-    }
-
-    .simbolo img{
-        width: 20%;
-        margin-top: 2.70em;
     }
 
     .catalogo{
         display: none;
     }
 
-    
+}
+
+@media(min-width: 810px) and (max-width: 1025px){
+
+    header{
+        width: 100vw;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        background-image: url(../img/capa__desktp.jpg);   
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-position-x: left;
+        
+    }
+
+    .lista__menu, .lista__itens a{
+        font-size: 1.10em;
+    }
+
+    .catalogo{
+        display: none;
+    }
+
+    .destaque , .titulo__destaque {
+        font-size: 1.50em;
+    }
+
+    .bnt__play{
+        width: 150px;
+        padding: 15px;
+        color: #080D0D;
+        font-weight: bolder;
+        border-radius: 10px;
+        border: none; 
+    }
+
+    .rodape{
+        display: none;
+    }
+
+    .rodape__desktop{
+        margin-top: 1em;
+        height: 6em;
+        background-color: #080D0D;
+    }
+
+    .rodape__desktop h3{
+        color: #FFFFFE;
+        margin-top: 3.50em;
+        text-align: center;
+        font-weight: normal;
+    }
 }
